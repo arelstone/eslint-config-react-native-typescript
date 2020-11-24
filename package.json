@@ -1,6 +1,6 @@
 {
   "name": "@arelstone/eslint-config-react-native-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint rules for react native",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/arelstone/eslint-config-react-native-typescript/issues"
   },
   "homepage": "https://github.com/arelstone/eslint-config-react-native-typescript#readme",
-  "devDependencies": {
+  "dependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
     "@typescript-eslint/typescript-estree": "^4.8.2",
     "eslint": "^7.14.0",
