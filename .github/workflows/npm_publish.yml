@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm clean-install
-      - run: npm test -- --ci
+      - run: npm test
 
   tag:
     needs: setup
