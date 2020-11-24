@@ -12,7 +12,6 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm clean-install
-      - run: npm run lint
       - run: npm test -- --ci
 
   tag:
