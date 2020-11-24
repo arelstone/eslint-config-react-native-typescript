@@ -19,7 +19,7 @@
     "url": "https://github.com/arelstone/eslint-config-react-native-typescript/issues"
   },
   "homepage": "https://github.com/arelstone/eslint-config-react-native-typescript#readme",
-  "devDependencies": {
+  "dependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
     "@typescript-eslint/typescript-estree": "^4.8.2",
     "eslint": "^7.14.0",
