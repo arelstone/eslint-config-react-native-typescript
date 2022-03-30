@@ -27,7 +27,7 @@ jobs:
       - name: Publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
-          token: ${{ secrets.NPM_AUTH_TOKEN }}
+          token: ${{ secrets.NPM_TOKEN }}
           access: public
       
       - name: Extract version from package.json
@@ -37,7 +37,7 @@ jobs:
       - name: Create release on github
         uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
-          repo_token: ${{ secrets.GH_AUTH_TOKEN }}
+          repo_token: ${{ secrets.GH_TOKEN }}
           prerelease: false
           title: v${{ steps.extract_version.outputs.version }}
           automatic_release_tag: v${{ steps.extract_version.outputs.version }}
